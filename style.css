@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    padding-left: 30px;
+}
+
+#height, #weight {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#result {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    background-color: seashell;
+    color: red;
+}
+#under{
+    color: rgb(60, 109, 173);
+    text-align: center;
+    text-decoration: underline black;
+}
+
+#btn {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 200px;
+}
